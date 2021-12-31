@@ -1,0 +1,42 @@
+{
+    "name": "xenon/flyhub",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ariful Islam",
+            "email": "arif98741@gmail.com",
+            "homepage": "https://github.com/arif98741",
+            "role": "Developer, Maintainer"
+        }
+    ],
+    "description": "Xenon/Flyhub is a php library for getting data using flyhub api. It can be integrated with any php application as vendor dependency.",
+    "keywords": [
+        "flyhub",
+        "flyhubapi",
+        "flyhub php",
+        "flyhub php library",
+        "flyhub libray",
+        "flyhub php package",
+        "flyhub api",
+        "flyhub php client"
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Xenon\\Flyhub\\": "src/"
+        },
+        "psr-0": {
+            "UnitTestFiles": ""
+        }
+    },
+    "support": {
+        "email": "arif98741@gmail.com"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    }
+}
