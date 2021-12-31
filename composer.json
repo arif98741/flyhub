@@ -34,11 +34,14 @@
         "email": "arif98741@gmail.com"
     },
     "require": {
-        "guzzlehttp/guzzle": "^7.4",
+        "guzzlehttp/guzzle": "^6.3|^7.3",
         "php": "^7.0 || ^8.0",
         "ext-curl": "*"
     },
     "require-dev": {
-        "symfony/var-dumper": "^5.4"
+        "symfony/var-dumper": "^5.4",
+        "phpunit/phpunit": "9.5",
+        "nikic/php-parser": "^4.13",
+        "psr/log": "^1.1"
     }
 }
