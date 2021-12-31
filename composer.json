@@ -34,7 +34,9 @@
         "email": "arif98741@gmail.com"
     },
     "require": {
-        "guzzlehttp/guzzle": "^7.4"
+        "guzzlehttp/guzzle": "^7.4",
+        "php": "^7.0 || ^8.0",
+        "ext-curl": "*"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.4"
