@@ -1,0 +1,1 @@
+Xenon/Flyhub is a php library for getting data using flyhub api. It can be integrated with any php application as vendor dependency.
